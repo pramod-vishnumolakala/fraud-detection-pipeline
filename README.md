@@ -51,8 +51,8 @@ Financial Transactions
 - **Real-time ingestion** via AWS Kinesis Data Streams at 10M+ events/day
 - **Sub-second fraud scoring** using PySpark ML feature rules + Lambda
 - **45% reduction** in fraud alert latency vs batch processing
-- **Multi-rule fraud engine** — velocity checks, geo-anomaly, amount thresholds
-- **100% PCI-DSS compliant** — field-level encryption via AWS KMS
+- **Multi-rule fraud engine** - velocity checks, geo-anomaly, amount thresholds
+- **100% PCI-DSS compliant** - field-level encryption via AWS KMS
 - **Automated alerting** via SNS/SES with enriched fraud context
 - **Star schema Redshift warehouse** for downstream analytics & dashboards
 
@@ -119,5 +119,5 @@ python src/processing/fraud_detector.py
 
 ## Author
 
-**Pramod Vishnumolakala** — Senior Data Engineer  
+**Pramod Vishnumolakala** - Senior Data Engineer  
 [pramodvishnumolakala@gmail.com](mailto:pramodvishnumolakala@gmail.com) · [LinkedIn](https://linkedin.com/in/pramod-vishnumolakala)
